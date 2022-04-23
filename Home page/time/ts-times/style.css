@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    width:100%;
+    height:100%;
+    background-color: #000;
+    overflow: hidden;
+}
+/* .main{
+    width: 400px;
+    height: 400px;
+} */
+#clock {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+.label{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display:inline-block;
+    color:#4d4d4d;
+    text-align: center;
+    padding:0 5px;
+    font-size:14px;
+    transition:all 1s;
+    transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform-origin: 0% 0%;
+    -moz-transform-origin: 0% 0%;
+    -o-transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+}
+.now{
+    color: rgb(223, 130, 10);
+}
+/* <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?a2e2e465098d883036e3cfad66f7203d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script> */

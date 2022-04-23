@@ -1,0 +1,29 @@
+*{margin: 0;padding: 0; font-size:12px; font-family: 宋体;}
+.zongti{width: 660px;height: 249px;
+border: 1px solid darkgrey;
+margin: 40px auto;}
+
+h2{font-size: 14px;
+line-height: 40px;
+margin-left: 1em;}
+
+h4{ font-size: 14px;
+color: skyblue;
+line-height: 30px;}
+
+.box{float: left;
+width: 216px;
+height: 99px;}
+
+li{line-height: 30px;color: darkgray;
+list-style-type: none;}
+
+
+.box img{
+	float:left;
+	margin: 10px 10px 0 20px;
+	border-radius: 5px;
+	border: 1px solid darkgray;
+	padding:5px;
+	}
+	

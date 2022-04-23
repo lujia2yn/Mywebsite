@@ -1,0 +1,111 @@
+/*第一个框架*/.dygkj {
+	margin: 10px auto;
+	width: 300px;
+	height: 250px;
+	border: 1px solid darkgray;
+	text-indent: 2em;
+}
+/*图片*/#sygj {
+	background-image: url(../img/工具.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 25px;
+}
+/*超链接状态*/a {
+	color: black;
+	text-decoration: none;
+	
+}
+/*鼠标划过后的颜色*/a:hover {
+	color: red;
+	text-decoration: underline;
+ }
+/*图片*/.dsj {
+	background-image: url(../img/电视.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 25px;
+	margin-left: 30px;
+}
+/*图片*/#wsgw {
+	background-image: url(../img/网购.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 25px;
+	
+}
+/*图片*/.rmdy{
+	background-image: url(../img/电影.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 25px;
+	margin-left: 30px;}
+/*图片*/#jkj {
+	background-image: url(../img/9块9.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 25px;
+}
+/*图片*/.yx {
+	background-image: url(../img/游戏.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 25px;
+	margin-left: 30px;
+}
+/*图片*/#xs{
+	background-image: url(../img/小说.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 25px;
+}
+/*图片*/.cp{
+	background-image: url(../img/彩票.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 25px;
+	margin-left: 30px;
+}
+/*图片*/#yy {
+	background-image: url(../img/音乐.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 25px;
+}
+/*图片*/.xh {
+	background-image: url(../img/笑话.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 25px;
+	margin-left: 30px;
+}
+/*图片*/#yl {
+	background-image: url(../img/娱乐.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 25px;
+}
+/*图片*/.jp {
+	background-image: url(../img/机票.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 25px;
+	margin-left: 30px;
+}
+
+
+
+
+
+/*第二个框架*/.degkj {
+	margin:auto;
+	width: 300px;
+	height: 250px;
+	border: 1px solid  darkgray;
+}
+#dhl{margin-left: 2em;}
+
+.hx{width: 250px;
+color:aqua;}
+
+.tt{margin-left: 10px;}

@@ -1,0 +1,17 @@
+*{margin: 0;padding:0;}
+.zongti{ width: 250px;height: 148px;margin: 0 auto;margin: 10px;line-height: 1.8;background: white;}
+.top{background:red;
+color:white;padding-left: 10px;}
+
+ul div p{color: red;font-weight: 300px;font-size:10px;}
+ul li{list-style-type: none;}
+ul li div{display:none;text-align: center;}
+ul li:hover div{display: block;}
+li{border-bottom: 1px dashed black;background: white;}
+
+
+a{text-decoration: none;color:black;font-size: 12px;}
+a:hover{color:red;}
+
+span{color: white;background: black;border-radius: 50%;padding-left: 5px;padding-right:5px;}
+a:hover span{background:red;}

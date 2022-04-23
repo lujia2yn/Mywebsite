@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* 头部 */
+header{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+header a{
+    display: block;
+    width: 330px;
+    height: 60px;
+    background-image: url(../images/index-logo.png);
+    background-repeat: no-repeat;
+    background-size: auto 65px;
+    float: left;
+    margin-top: 20px;
+}
+header div{
+    width: 504px;
+    height: 100px;
+    background-image: url(../images/log-in-SM.png);
+    float: right;
+    background-size: 100%;
+}
+/* 主体 */
+.main-Bj{
+    width: 100%;
+    height: 600px;
+    background: #f8f8f8;
+    border-top: 1px solid #e8e8ea;
+    border-bottom: 1px solid #e8e8ea;
+}
+.main{
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+}
+.main_banner{
+    display: block;
+    width: 400px;
+    height: 203px;
+    background-image: url(../images/log-in-banner.png);
+    float: left;
+    margin-top: 198px;
+}
+.main_Right-box{
+    width: 350px;
+    float: right;
+    margin-top: 115px;
+    margin-right: 25px;
+    position: relative;
+    border: 1px solid #efefef;
+}
+.Right-first{
+    width: 350px;
+    background: #fff;
+    display: block;
+}
+.Right-first span img{
+    width: 94px;
+    height: 18px;
+    float: right;
+    margin-right: 64px;
+    margin-top: 5px;
+}
+.Right-first p{
+    text-align: center;
+}
+.Right-first p:nth-of-type(1){
+    clear: both;
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+    padding: 5px 0;
+}
+.Right-first p:nth-of-type(2) span{
+    display: inline-block;
+    width: 231px;
+    height: 16px;
+    color: #f99742;
+    background-image: url(../images/Right-first-pick2.png);
+    border-radius: 16px;
+}
+.Right-first p:nth-of-type(3){
+    width: 350px;
+    height: 192px;
+    padding-top: 30px;
+}
+.Right-first p:nth-of-type(3)>span:nth-of-type(1){
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    background-image: url(../images/Right-first-evm.png);
+    border: 5px solid #fff;
+    box-shadow:1px 1px 15px 1px rgba(0,0,0,.1);
+}
+.Right-first p:nth-of-type(3)>span:nth-of-type(2){
+    display: inline-block;
+    width: 116px;
+    height: 32px;
+    font-size: 12px;
+    color: #666;
+    padding-left: 44px;
+    position: relative;
+    text-align: left;
+    margin-top: 7px;
+}
+.Right-first p:nth-of-type(3)>span:nth-of-type(2)::before{
+    content: url(../images/Right-first-pick3.png);
+    vertical-align: middle;
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+.mian-second{
+    width: 350px;
+    background: #fff;
+    display: none;
+}
+.mian-second span img{
+    width: 94px;
+    height: 18px;
+    float: right;
+    margin-right: 64px;
+    margin-top: 5px;
+}
+.mian-second p:nth-of-type(1){
+    clear: both;
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 0;
+    padding-top: 10px;
+}
+.mian-second ul{
+    width: 270px;
+    padding: 0 40px;
+    margin-top: 7px;
+}                
+.mian-second ul li{
+    width: 270px;
+}
+.mian-second ul li[class$=sc1]{
+    height: 14px;
+    padding-bottom: 8px;
+}
+.mian-second ul li[class$=sc1] a{
+    float: right;
+    font-size: 12px;
+    color: #666;
+}
+.mian-second ul li[class$=sc1] a:hover,
+.mian-second #btn:hover{
+    color: #e31436;
+}
+.mian-second ul li[class$=sc2],
+.mian-second ul li[class$=sc3]{
+    width: 268px;
+    height: 34px;
+    border-radius: 34px;
+    background: #fff;
+    border: 1px solid #d5d5d5;
+    margin-bottom: 16px;
+
+}
+.mian-second ul li[class$=sc2] span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/log-in-sj.png);
+    float: left;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.mian-second #tel{
+    width: 200px;
+    height: 34px;
+    outline: none;
+    border:none;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.mian-second ul li[class$=sc3] span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/log-in-anquan.png);
+    float: left;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.mian-second #Yz{
+    width: 150px;
+    height: 34px;
+    outline: none;
+    border:none;
+    margin-left: 10px;
+    font-size: 12px;
+    float: left;
+}
+.mian-second #btn{
+    float: left;
+    height: 24px;
+    width: 70px;
+    margin-top: 5px;
+    outline: none;
+    border:none;
+    background: rgba(0,0,0,0);
+    border-left: 1px solid #d5d5d5;
+    font-size: 12px;
+    color:#333;
+}
+.mian-second #btn:hover,
+.mian-second #dl:hover{
+    cursor: pointer;
+}
+.mian-second .Aqts{
+    width: 270px;
+    height: 16px;
+    font-size: 12px;
+    color: #666;
+    padding-bottom: 10px;
+    display: none;
+}
+.mian-second .Aqts::before{
+    content: url(../images/log-in-lsanquan.png);
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.mian-second #dl{
+    width: 268px;
+    height: 34px;
+    color: #fff;
+    border-radius: 34px;
+    background: #ff0000;
+    border: 1px solid #ff0000;
+    outline: none;
+}
+.mian-second ul li[class$=sc4]{
+    text-align: center;
+    font-size: 13px;
+    color: #999;
+    padding-top: 16px;
+}
+.mian-second ul li[class$=sc4] a{
+    font-size: 12px;
+    color: #999;
+    text-decoration: underline;
+}
+.mian-third{
+    width: 64px;
+    height: 64px;
+    background-image: url(../images/logo-in-click1.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.mian-third:hover{
+    cursor: pointer;
+}
+.main-fourth{
+    width: 350px;
+    height: 41px;
+    line-height: 51px;
+    border-top: 1px solid #efefef;
+    background: #fff;
+    overflow: hidden;
+}
+.main-fourth p{
+    text-align: center;
+    height: 23px;
+}
+.main-fourth p a{
+    display: inline-block;
+    width: 30px;
+    height: 23px;
+}
+.main-fourth a[class$=f1]{
+    background-image: url(../images/main_Right-box-tb.png);
+}
+.main-fourth a[class$=f2]{
+    background-image: url(../images/main_Right-box-zfb.png);
+}
+.main-fourth a[class$=f3]{
+    background-image: url(../images/main_Right-box-wx.png);
+}
+.main-fourth a[class$=f4]{
+    background-image: url(../images/main_Right-box-wb.png);
+}
+.main-fourth a[class$=f5]{
+    background-image: url(../images/main_Right-box-dx.png);
+}
+/* 底部 */
+footer{
+    width: 1000px;
+    height: 153px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+footer ul{
+    width: 100%;
+    text-align: center;
+}
+footer ul li{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 12px;
+    color: #666;
+    line-height: 30px;
+}
+footer ul li a{
+    font-size: 12px;
+    color: #666;
+}
+.footer ul li a:hover{
+    text-align: center;
+}
+footer p{
+    margin-top: 5px;
+    text-align: center;
+}
+footer p a[class$=ft1]{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    background-image: url(../images/footer-pick1.png);
+    background-size: 100%;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+footer p a[class$=ft2]{
+    display: inline-block;
+    width: 28px;
+    height: 30px;
+    background-image: url(../images/footer-pick2.png);
+    background-size: 100%;
+}

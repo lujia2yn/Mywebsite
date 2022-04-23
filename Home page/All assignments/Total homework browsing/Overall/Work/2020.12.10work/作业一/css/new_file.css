@@ -1,0 +1,45 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+}
+/*头部*/
+.top{width: 990px;height: 81px;margin: 0 auto;}
+.logo {
+	float: left;
+	margin-top: 10px;
+	margin-left: 8px;
+}
+
+.logo_zi {float: left;
+	margin-left: 15px;
+	margin-top: 23px;
+	font-size: 23px;
+	color: #8e8a8b;
+}
+/*头部*/
+
+/*身体*/
+.center{width: 990px;height: 475px;margin: 0 auto;}
+.tupian{background-image: url(../img/beijing.png);width: 990px;height: 475px;float: left;}
+.center_box{width:350px;height:283px; background: white;float: right;margin-top: 40px;
+margin-right: 15px;}
+.denglu{width:350px;height: 283px;}
+.denglu_1{font-size: 14px;padding-left: 50px;}
+td>a:hover{font-size: 18px;color: red;font-weight: 700;}
+.hezi{width:245px; height: 36px;}
+.tijiao{width:289px; height: 36px;margin-left: 25px;
+background: red;color:white}
+td a{text-decoration: none;
+color:#525655}
+td a:hover{color:#FF4500;}
+/*身体*/
+
+/*底部*/
+.bottom{width: 990px;height:72px;background: white;margin: 0 auto;}
+	ul li{margin-top:15px;display: inline-block;
+	margin-left: 10px;margin-right: 10px;color:#525655;}
+	li a{text-decoration: none;
+	color:#525655;}
+	li a:hover{text-decoration: underline;
+	color:#FF4500;}

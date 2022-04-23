@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>music</title>
+	<link rel="stylesheet" href="css/player.css">
+</head>
+
+<body>
+	<div id="QPlayer">
+		<div id="pContent">
+
+			<div id="player">
+				<span class="cover"></span>
+				<div class="ctrl">
+					<div class="musicTag marquee">
+						<strong>Title</strong>
+						<span> - </span>
+						<span class="artist">Artist</span>
+					</div>
+					<div class="progress">
+						<div class="timer left">0:00</div>
+						<div class="contr">
+							<div class="rewind icon"></div>
+							<div class="playback icon"></div>
+							<div class="fastforward icon"></div>
+						</div>
+						<div class="right">
+							<div class="liebiao icon"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ssBtn" style="background:#000 none repeat scroll 0% 0%">
+				<div class="adf"></div>
+			</div>
+		</div>
+		<ol id="playlist"></ol>
+	</div>
+
+	<script src="./js/jquery.min.js"></script>
+	<!-- <script src="js/jquery.marquee.min.js"></script> -->
+
+	<script>
+		let playlist = [
+			{ title: "The Way I Still ...", artist: "Reynard Silva", mp3: "./mp3/02.mp3", cover: "./mp3-pick/t.png", },
+			{ title: "青花瓷（纯音乐）", artist: "周杰伦", mp3: "./mp3/made.mp3", cover: "./mp3-pick/t2.png", },
+		],
+			isRotate = true,
+			autoplay = true;
+	</script>
+	<script src="js/player.js"></script>
+	<script>
+		window.onload = function () {
+			let lis = $('.lib');
+			for (var i = 0; i < lis.length; i += 2) {
+				lis[i].style.background = 'rgba(246, 246, 246, 0.7)'
+			}
+			setTimeout(() => {
+				document.querySelector('.ssBtn').click();
+			}, 1000);
+
+			// 获取html元素封装
+			function $s(obj, flag) {
+				return flag === true ? document.querySelectorAll(obj) : document.querySelector(obj);
+			}
+			// 存储页面元素和鼠标样式的数据源
+			let arrHover = [
+				{ ele: document.documentElement, route: 'pointer.ico' },
+				{ ele: $s('img'), route: 'hand.cur' },
+				{ ele: $s('.rewind'), route: 'hand.cur' },
+				{ ele: $s('.playback'), route: 'hand.cur' },
+				{ ele: $s('.fastforward'), route: 'hand.cur' },
+				{ ele: $s('.liebiao'), route: 'hand.cur' },
+				{ ele: $s('.ssBtn'), route: 'hand.cur' }
+			];
+			for (let i = 0; i < arrHover.length; i++) {
+				arrHover[i].ele.onmouseover = function () {
+					this.style.cursor = `url(./img/${arrHover[i].route}),auto`;
+				};
+			};
+			for (let j = 0; j < $s('li', true).length; j++) {
+				[...$s('li', true)][j].onmouseover = function () {
+					this.style.cursor = `url(./img/hand.cur,auto)`;
+				};
+			};
+		}
+	</script>
+
+</body>
+
+</html>

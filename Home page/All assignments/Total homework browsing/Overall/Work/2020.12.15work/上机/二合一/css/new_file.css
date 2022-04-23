@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0px;
+}
+
+.dian li {
+	list-style: none;
+	width: 8px;
+	height: 8px;
+	background: white;
+	float: left;
+	border-radius: 7px;
+	margin: 3px;
+}
+
+.zongti {
+	width: 400px;
+	height: 400px;
+	background: pink;
+	position: relative;
+	margin: 0 auto;
+}
+
+.dian {
+	position: absolute;
+	bottom: 15px;
+	width: 70px;
+	height: 13px;
+	left: 50%;
+	margin-left: -35px;
+}
+
+.top {
+	width: 150px;
+	height: 150px;
+	background: aqua;
+	position: absolute;
+	left: 30%;
+	bottom: 30%;line-height: 1.8;
+}
+.box{ width: 90px;height: 60px;background: deeppink;}
+.top li{list-style: none;}
+.top li a{text-decoration: none;color: black;}
+.top li div{ display:none;}
+.top li:hover div{display:block;}
+.top li a:hover{color: red;text-decoration: underline;}

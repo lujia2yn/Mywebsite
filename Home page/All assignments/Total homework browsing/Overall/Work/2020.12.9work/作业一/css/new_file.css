@@ -1,0 +1,22 @@
+li{display: inline-block;
+			margin-left: 10px;
+			margin-right: 10px;}
+			a{text-decoration: none;
+			color: black;
+			font-size: 12px;
+			display: block;}
+			a:hover{
+				color:red;
+			}
+			div{border: 1px solid darkgray;background:#A9A9A9;}
+			.bk{
+			width: 800px;
+			margin: auto;
+			}
+			.dsj {
+			background-image: url(../img/电视.jpg);
+			background-repeat: no-repeat;
+			display: inline-block;
+			line-height: 25px;}
+			li>span>a{margin-left: 25px;}
+			

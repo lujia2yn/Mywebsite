@@ -1,0 +1,20 @@
+				h1 {
+				font-size: 18px;
+			}
+			
+			a {
+				text-decoration: none;
+				font-size: 12px;
+				color: #000000;
+			}
+			
+			a:hover {
+				color: #FF6600;
+				text-decoration: underline;
+			}
+			
+			div {
+				margin: auto;
+				width: 500px;
+				border: 2px solid gainsboro;
+				background: #FFFFFF;

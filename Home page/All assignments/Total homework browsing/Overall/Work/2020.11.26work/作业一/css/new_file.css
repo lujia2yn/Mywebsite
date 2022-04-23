@@ -1,0 +1,33 @@
+.h1 {
+	color: white;
+	background: red;
+	cursor: move;
+	text-indent: 1em;
+	background-image: url(../img/1.gif);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+div {
+	margin: auto;
+	width: 300px;
+	border: 2px solid gainsboro;
+	background: darkgrey;
+}
+
+#l {
+	background-image: url(../img/2.gif);
+	background-repeat: no-repeat;
+	background-position: right;
+	text-indent: 2em;
+}

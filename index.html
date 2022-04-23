@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>logo in</title>
+	<!-- 引入icon图标 -->
+	<link rel="shortcut icon" href="favicon.ico" />
+	<!-- 引入css样式 -->
+	<link rel="stylesheet" href="./css/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<script>
+	if (navigator.userAgent.match(/(phone | pad | pod |iPhone | ios | iPad |Android | Mobile | BlackBerry | IEMobile | MQQBrowser | JUC | Fennec | wOSBrowser | BrowserNG| webOS|Symbian|Window Phone)/i)) {
+		window.location.href = './move/index.html';
+	} else {
+		window.open('http://xiaolu.3vzhuji.cc/');
+	};
+	//有道笔记
+	console.log('http://note.youdao.com/noteshare?id=cf3a79e86abf6210be571d9090d71e6a');
+</script>
+
+<body>
+	<div class='login'>
+		<div class='login_title'>
+			<span>Login to your account</span>
+		</div>
+		<div class='login_fields'>
+			<div class='login_fields__user'>
+				<div class='icon'>
+					<img src='img/user_icon_copy.png'>
+				</div>
+				<input placeholder='Username' type='text' value="xiaolu" disabled>
+				<div class='validation'>
+					<img src='img/tick.png'>
+				</div>
+				</input>
+			</div>
+			<div class='login_fields__password'>
+				<div class='icon'>
+					<img src='img/lock_icon_copy.png'>
+				</div>
+				<input placeholder='Password' type='password' value="123456">
+				<div class='validation'>
+					<img src='img/tick.png'>
+				</div>
+			</div>
+			<div class='login_fields__submit'>
+				<input type='submit' value='Log In'>
+				<div class='forgot'>
+					<a href='#'>Forgotten password?</a>
+				</div>
+			</div>
+		</div>
+		<div class='success center'>
+			<h2>Login failed</h2>
+			<p>Wrong password</p>
+			<p>Please enter the correct password</p>
+			<p>No spaces and special symbols</p>
+			<p class="hide">Wrong password</p>
+			<p><button class="btn"> Log in again </button></p>
+		</div>
+		<div class='disclaimer'>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce semper laoreet placerat. Nullam semper
+				auctor justo, rutrum posuere odio vulputate nec.</p>
+		</div>
+	</div>
+	<div class='authent'>
+		<img src='img/puff.svg'>
+		<p>Authenticating...</p>
+	</div>
+	<script src='js/stopExecutionOnTimeout.js?t=1'></script>
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="./js/jquery-ui.min.js"></script>
+	<script src="./js/index.js"></script>
+</body>
+
+</html>

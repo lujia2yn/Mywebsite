@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>times</title>
+</head>
+<style>
+    body {
+        width: 8000px;
+        height: 100%;
+        background: #0299d8;
+        background: -o-linear-gradient(45deg, #1e9fff 0, #0299d8 33%, #009688 66%, #b8e7ff 100%);
+        background: linear-gradient(to right, rgb(39, 37, 37), #04cae4 50%, #010e0c);
+        background-size: 400%;
+        background-position: 0 100%;
+        -webkit-animation: gradient 7.5s ease-in-out infinite;
+        animation: gradient 10s ease-in-out infinite;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    @-webkit-keyframes gradient {
+        50% {
+            background-position: 100% 0
+        }
+    }
+
+    @keyframes gradient {
+        50% {
+            background-position: 100% 0
+        }
+    }
+
+    div {
+        width: 400px;
+        height: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -200px;
+        margin-top: -50px;
+    }
+
+    div a {
+        display: block;
+        width: 100px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        margin-top: 25px;
+        color: rgb(152, 213, 231);
+        font-family: '宋体';
+        background: rgb(30, 135, 184);
+        border-radius: 5px;
+        transition: all .5s;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    div a:hover {
+        box-shadow: 2px 2px 50px 10px rgba(231, 44, 206, 0.5);
+    }
+
+    #left {
+        float: left;
+
+    }
+
+    #right {
+        float: right;
+    }
+
+    h3 {
+        width: 400px;
+        height: 100px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        margin-left: -200px;
+        margin-top: -50px;
+        text-align: center;
+        color: rgb(236, 203, 53);
+        font-size: 40px;
+        font-family: '方正舒体';
+    }
+</style>
+
+<body>
+    <div>
+        <a href="ts-times/index.html" id="left">台式机</a>
+        <a href="bjb-times/index.html" id="right">笔记本</a>
+    </div>
+    <h3>你所使用的配置是？</h3>
+</body>
+
+</html>

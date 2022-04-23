@@ -1,0 +1,403 @@
+* {
+	margin: 0;
+	padding: 0;
+	background: #000026;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.biaoti {
+	width: 1200px;
+	height: 150px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.tb1 {
+	width: 140px;
+	height: 140px;
+	position: absolute;
+	top: 5px;
+}
+
+.tb1>img {
+	width: 140px;
+	height: 140px;
+}
+
+.bt2 {
+	width: 400px;
+	height: 140px;
+	position: relative;
+	top: 5px;
+	left: 50%;
+	margin-left: -200px;
+	font-size: 50px;
+	text-align: center;
+	line-height: 140px;
+	font-family: 方正舒体;
+	color: orange;
+}
+
+.bt3 {
+	width: 140px;
+	height: 140px;
+	position: absolute;
+	top: 5px;
+	right: 0;
+}
+
+.tbt3>img {
+	width: 140px;
+	height: 140px;
+}
+
+.center1 {
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
+	background: #FFAB14;
+	border-radius: 20px;
+	margin-top: 30px;
+	position: relative;
+	text-align: center;
+	font-size: 26px;
+	color: black;
+	font-family: 宋体;
+}
+
+.center2 {
+	width: 100px;
+	height: 300px;
+	background: mediumturquoise;
+	position: absolute;
+	top: 50px;
+	left: 20px;
+	border-radius: 25px;
+}
+
+.center3 {
+	width: 900px;
+	height: 300px;
+	position: absolute;
+	top: 50px;
+	left: 150px;
+	background: #FF6940;
+	border-radius: 25px;
+	display: block;
+}
+
+.center3>h3 {
+	background: rgba(0, 0, 0, 0);
+	margin-top: 10px;
+}
+
+
+
+.js-first {
+	width: 900px;
+	height: 300px;
+	position: absolute;
+	top: 50px;
+	left: 150px;
+	z-index: 10;
+	background: #FF6940;
+	border-radius: 25px;
+	display: none;
+}
+
+.js-first>h3 {
+	background: rgba(0, 0, 0, 0);
+	margin-top: 10px;
+}
+
+
+
+
+#dyl {
+	width: px;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+#dyl,
+#dyl>li,
+#dyl>li>a {
+	background: rgba(0, 0, 0, 0);
+	color: black;
+}
+
+#dyl>li>a:hover {
+	color: cyan;
+}
+
+#dyl>li {
+	float: left;
+	margin-left: 60px;
+	margin-top: 15px;
+}
+
+h6 {
+	background: rgba(0, 0, 0, 0);
+	margin-top: 100px;
+}
+
+#der2 {
+	background: rgba(0, 0, 0, 0);
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+#der2>dd {
+	display: inline-block;
+}
+
+#der2>dd,
+#der2>dd>a {
+	background: #FF6940;
+	color: black;
+}
+
+#der2>dd>a:hover {
+	color: cyan;
+}
+
+.login {
+	overflow: hidden;
+	position: relative;
+	width: 38px;
+	height: 20px;
+	/*padding: 10px 20px;*/
+	border-radius: 5px;
+	/* 取消a表现原有的下划线 */
+	text-decoration: none;
+	/* 同样加个过渡 */
+	transition: all 0.5s;
+	font-size: 12px;
+	margin-top: 80px;
+	margin-left: 830px;
+	background: rgba(255, 255, 255, .1);
+}
+
+.login>a {
+	line-height: 20px;
+	padding: 3px 7px 3px 7px;
+	background: rgba(0, 0, 0, 0);
+	color: #999;
+}
+
+.login:hover,
+.login:hover a {
+	color: #fff;
+	border-radius: 5px;
+	background-color: #03e9f4;
+	box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+}
+
+.login a span {
+	position: absolute;
+}
+
+.login a span:first-child {
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(to right, transparent, #03e9f4);
+	animation: move1 1s linear infinite;
+}
+
+.login a span:nth-child(2) {
+	right: 0;
+	top: -100%;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(transparent, #03e9f4);
+	animation: move2 1s linear 0.25s infinite;
+}
+
+.login a span:nth-child(3) {
+	right: -100%;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(to left, transparent, #03e9f4);
+	animation: move3 1s linear 0.5s infinite;
+}
+
+.login a span:last-child {
+	left: 0;
+	bottom: -100%;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(#03e9f4, transparent);
+	animation: move4 1s linear 0.75s infinite;
+}
+
+@keyframes move1 {
+	0% {
+		left: -100%;
+	}
+	50%,
+	100% {
+		left: 100%;
+	}
+}
+
+@keyframes move2 {
+	0% {
+		top: -100%;
+	}
+	50%,
+	100% {
+		top: 100%;
+	}
+}
+
+@keyframes move3 {
+	0% {
+		right: -100%;
+	}
+	50%,
+	100% {
+		right: 100%;
+	}
+}
+
+@keyframes move4 {
+	0% {
+		bottom: -100%;
+	}
+	50%,
+	100% {
+		bottom: 100%;
+	}
+}
+
+.center4 {
+	width: 100px;
+	height: 300px;
+	background: mediumturquoise;
+	position: absolute;
+	top: 50px;
+	right: 20px;
+	border-radius: 25px;
+	text-align: center;
+	font-size: 26px;
+	color: black;
+	font-family: 宋体;
+}
+
+/* 导航栏 */
+.nav-conter{
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.nav{
+	width: 50px;
+	height: 50px;
+	background: rgba(255,255,255,0);
+	border-radius: 50%;
+	position: relative;
+}
+.nav>nav{
+	width: 1160px;
+	height: 50px;
+	background: #ffab14;
+	margin: 20px auto;
+	/* border-radius: 50px; */
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	transition: all .8s;
+	position: absolute;
+	left: -1130px;
+	top: -20px;
+}
+.nav:hover nav{
+	left: 0;
+}
+/* nav:hover{
+	box-shadow: 0 0 10px 10px pink;
+} */
+.nav>nav>dl>dd{
+	display: block;
+	float: left;
+	margin-left: 20px;
+	line-height: 50px;
+	background:rgba(0, 0, 0, 0)
+}
+.nav>nav>dl>dd>a{
+	background: rgba(0,0,0,0);
+	color: #000000;
+	font-weight: 900;
+}
+.nav_right>nav{
+	width: 1160px;
+	height: 50px;
+	background: #ffab14;
+	margin: 20px auto;
+	/* border-radius: 50px; */
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	transition: all .8s;
+	position: absolute;
+	right: -1130px;
+	top: -20px;
+}
+.nav_right:hover nav{
+	right: 0;
+}
+.nav_right>nav>dl>dd{
+	display: block;
+	float: right;
+	margin-right: 20px;
+	line-height: 50px;
+	background:rgba(0, 0, 0, 0)
+}
+.nav_right>nav>dl>dd>a{
+	background: rgba(0,0,0,0);
+	color: #000000;
+	font-weight: 900;
+}
+.nav_right>nav>dl>dd>a:hover,
+.nav>nav>dl>dd>a:hover{
+	color:#03e9f4;
+}
+
+.main_games{
+	width: 300px;
+	height: 800px;
+	/* background: rgb(41, 172, 224); */
+	background: rgba(0,0,0,0);
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	position: absolute;
+	top: 80px;
+	left: -300px;
+	transition: all .8s;
+}
+.main_games:hover{
+	left: 0;
+}
+.main_games>img:nth-of-type(1){
+	position: absolute;
+	top: 0;
+	right: -48px;
+	transform: rotate(90deg);
+}
+.main_games>img:nth-of-type(2){
+	width: 100%;
+	height: 200px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}

@@ -1,0 +1,76 @@
+.navbar .menu {
+    transition: transform 0.4s 0.08s, z-index 0s 0.5s;
+    transform: scale(1);
+}
+.navbar .menu li:nth-child(1) {
+    transition-delay: 0.02s;
+    transform: rotate(85deg);
+}
+.navbar .menu li:nth-child(1) a {
+    transition-delay: 0.04s;
+    transform: rotate(635deg);
+}
+.navbar .menu li:nth-child(2) {
+    transition-delay: 0.04s;
+    transform: rotate(125deg);
+}
+.navbar .menu li:nth-child(2) a {
+    transition-delay: 0.08s;
+    transform: rotate(595deg);
+}
+.navbar .menu li:nth-child(3) {
+    transition-delay: 0.06s;
+    transform: rotate(165deg);
+}
+.navbar .menu li:nth-child(3) a {
+    transition-delay: 0.12s;
+    transform: rotate(555deg);
+}
+.navbar .menu li:nth-child(4) {
+    transition-delay: 0.08s;
+    transform: rotate(205deg);
+}
+.navbar .menu li:nth-child(4) a {
+    transition-delay: 0.16s;
+    transform: rotate(515deg);
+}
+.navbar .menu li:nth-child(5) {
+    transition-delay: 0.1s;
+    transform: rotate(245deg);
+}
+.navbar .menu li:nth-child(5) a {
+    transition-delay: 0.2s;
+    transform: rotate(475deg);
+}
+.navbar .menu li:nth-child(6) {
+    transition-delay: 0.12s;
+    transform: rotate(285deg);
+}
+.navbar .menu li:nth-child(6) a {
+    transition-delay: 0.24s;
+    transform: rotate(435deg);
+}
+.navbar .menu li:nth-child(7) {
+    transition-delay: 0.14s;
+    transform: rotate(325deg);
+}
+.navbar .menu li:nth-child(7) a {
+    transition-delay: 0.28s;
+    transform: rotate(395deg);
+}
+.navbar .menu li:nth-child(8) {
+    transition-delay: 0.16s;
+    transform: rotate(365deg);
+}
+.navbar .menu li:nth-child(8) a {
+    transition-delay: 0.32s;
+    transform: rotate(355deg);
+}
+.navbar .menu li:nth-child(9) {
+    transition-delay: 0.18s;
+    transform: rotate(405deg);
+}
+.navbar .menu li:nth-child(9) a {
+    transition-delay: 0.36s;
+    transform: rotate(315deg);
+}

@@ -1,0 +1,12 @@
+*{ margin: 0;padding:0;}
+.big-box{width: 370px; height:390px;margin: 40px auto;
+border: 1px solid aqua;border-radius: 10px;}
+.top{color:red;}
+h2{margin:5px 0 10px 30px; padding-top: 20px;}
+.top_1{float:right;margin-right: 25px;}
+
+li{list-style: none;color: darkgray;font-size: 14px;line-height: 1.8;}
+a{color: red;font-weight: 400;}
+.box_1{width: 370px;height: 70px;margin-top: 10px;position: relative;}
+.box_1 img{float: left;margin:0px 60px 0 25px;}
+.sheng{position: absolute;left: 60px;top:-10px}
